@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #ec0000;
+    background-color: #00ec1d0a;
 }
 
 .header {
@@ -24,7 +24,7 @@ body {
     color: #d9dcd6;
 }
 
-container {
+.headerContainer {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,12 +32,12 @@ container {
     font-size: 20px;
 }
 
-.header div ul {
+.headerContainer ul {
     list-style-type: none;
 }
 
-.header div ul li {
-    display: inline-block;
+.headerContainer ul li {
+    display: inline;
     margin-left: 25px;
 }
 
